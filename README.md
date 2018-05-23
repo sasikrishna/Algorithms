@@ -4,4 +4,6 @@
 <ul>
 	<li>KMP pattern search Algorithm</li>
 	<li>Rabin Karp pattern search Algorithm</li>
+	<li>Finite Automata pattern search Algorithm</li>
+	<li>Boyer Moore - Bad heuristic Algorithm</li>
 </ul>

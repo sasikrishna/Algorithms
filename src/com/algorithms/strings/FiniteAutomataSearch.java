@@ -20,6 +20,10 @@ public class FiniteAutomataSearch {
 			throw new Exception("Text and/or pattern are/is missing.");
 		}
 		
+		if(text.length() < pattern.length()){
+			throw new Exception("Text length is less than pattern length.");
+		}
+		
 		constructFA(pattern);
 		
 		//Iterating through text and we'll verify through transition table if pattern exists in text or not.

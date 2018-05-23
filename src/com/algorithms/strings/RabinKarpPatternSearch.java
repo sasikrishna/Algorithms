@@ -25,6 +25,10 @@ public class RabinKarpPatternSearch {
 			throw new Exception("Text and/or pattern are/is missing.");
 		}
 		
+		if(text.length() < pattern.length()){
+			throw new Exception("Text length is less than pattern length.");
+		}
+		
 		text = text.toLowerCase();
 		pattern = pattern.toLowerCase();
 		

@@ -8,7 +8,6 @@ package com.algorithms.strings;
  * 
  * Time complexity for building lps is - O(m) where m is length of array and for searching O(n) where n is length is string. So total time complexity is O(n + m)
  * 
- * 
  * @author Sasi on 20-May-2018, 2:47:10 pm
  */
 public class KMPPatternSearch {
@@ -26,6 +25,10 @@ public class KMPPatternSearch {
 			throw new Exception("Text or pattern is missing.");
 		}
 
+		if(text.length() < pattern.length()){
+			throw new Exception("Text length is less than pattern length.");
+		}
+		
 		char[] textArray = text.toCharArray(), patternArray = pattern.toCharArray();
 		int[] lps = constructLPS(patternArray);
 		//System.out.println("LPS array: " + Arrays.toString(lps));
