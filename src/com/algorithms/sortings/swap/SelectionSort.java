@@ -1,4 +1,4 @@
-package com.algorithms.sortings;
+package com.algorithms.sortings.swap;
 
 import java.util.Arrays;
 

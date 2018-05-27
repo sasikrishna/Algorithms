@@ -5,9 +5,9 @@
 	<li>KMP pattern search</li>
 	<li>Rabin Karp pattern search</li>
 	<li>Finite Automata pattern search</li>
-	<li>Boyer Moore - bad heuristic rule</li>
+	<li>Boyer Moore - Bad heuristic rule</li>
 </ul>
-<h3>Sorting algorithms</h3>
+<h3>Sorting algorithms(swapping)</h3>
 <ul>
 	<li>Bubble sort</li>
 	<li>Selection sort</li>
@@ -16,4 +16,10 @@
 	<li>Merge sort</li>
 	<li>Quick sort</li>
 	<li>Heap sort</li>
+</u/>
+<h3>Sorting algorithms(linear)</h3>
+<ul>
+	<li>Counting sort</li>
+	<li>Bucket sort</li>
+	<li>Radix sort</li>
 </u/>
