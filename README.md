@@ -23,3 +23,9 @@
 	<li>Bucket sort</li>
 	<li>Radix sort</li>
 </u/>
+<h3>Graphs</h3>
+<ul>
+	<li>Depth first search</li>
+	<li>Breadth first search</li>
+	<li>Topological sort</li>
+</u/>
