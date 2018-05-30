@@ -8,7 +8,9 @@ public class Vertex {
 	public Character label;
 	public Integer weight;
 	public Boolean isVisited = false;
-
+	
+	public Character sourceLabel;
+	
 	public Vertex(Character label) {
 		super();
 		this.label = label;
@@ -29,5 +31,15 @@ public class Vertex {
 		builder.append(weight);
 		builder.append("]");
 		return builder.toString();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		
+		if(null == obj){
+			return false;
+		}
+		
+		return this.label == ((Vertex)obj).label;
 	}
 }

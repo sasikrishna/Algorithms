@@ -28,4 +28,6 @@
 	<li>Depth first search</li>
 	<li>Breadth first search</li>
 	<li>Topological sort</li>
+	<li>Dijkstras single source shortest path</li>
+	<li>Bellman-Ford single source shortest path</li>
 </u/>
