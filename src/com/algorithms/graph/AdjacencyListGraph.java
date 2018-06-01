@@ -12,9 +12,11 @@ import java.util.Map.Entry;
  */
 public class AdjacencyListGraph implements Graph{
 	Map<Character, List<Vertex>> graph;
+	List<Character> vertexes;
 	
 	public AdjacencyListGraph(){
 		graph  = new HashMap<Character, List<Vertex>>();
+		vertexes = new ArrayList<>();
 	};
 	
 	public Map<Character, List<Vertex>> getAdjancencyList(){
@@ -26,6 +28,7 @@ public class AdjacencyListGraph implements Graph{
 		List<Vertex> adjacencyList = graph.get(source);
 		
 		if(null == adjacencyList){
+			vertexes.add(source);
 			adjacencyList = new ArrayList<Vertex>();
 		}
 		
@@ -65,5 +68,10 @@ public class AdjacencyListGraph implements Graph{
 		}
 		
 		return allEdges;
+	}
+
+	@Override
+	public List<Character> getAllVertexes() {
+		return vertexes;
 	}
 }

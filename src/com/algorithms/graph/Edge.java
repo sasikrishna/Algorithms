@@ -4,7 +4,8 @@ package com.algorithms.graph;
  * 
  * @author Sasi on 30-May-2018, 7:52:02 pm
  */
-public class Edge {
+public class Edge implements Comparable<Edge>{
+	
 	public Character source, destination;
 	public int weight;
 
@@ -26,5 +27,10 @@ public class Edge {
 		builder.append(weight);
 		builder.append("]");
 		return builder.toString();
+	}
+
+	@Override
+	public int compareTo(Edge edge) {
+		return this.weight - edge.weight;
 	}
 }
