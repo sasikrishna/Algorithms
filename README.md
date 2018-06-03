@@ -31,3 +31,9 @@
 	<li>Dijkstras single source shortest path</li>
 	<li>Bellman-Ford single source shortest path</li>
 </u/>
+<h3>Greedy Algorithms</h3>
+<ul>
+	<li>Activity selection</li>
+	<li>Job Scheduling</li>
+	<li>Egyptian factor</li>
+</u/>
