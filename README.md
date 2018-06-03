@@ -37,3 +37,9 @@
 	<li>Job Scheduling</li>
 	<li>Egyptian factor</li>
 </u/>
+<h3>Dynamic Programming</h3>
+<ul>
+	<li>Binomial coefficient</li>
+	<li>Longest common sequence</li>
+	<li>Longest repeated sequence</li>
+</u/>
