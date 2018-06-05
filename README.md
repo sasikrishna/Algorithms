@@ -16,7 +16,7 @@
 	<li>Merge sort</li>
 	<li>Quick sort</li>
 	<li>Heap sort</li>
-</u/>
+<u/>
 <h3>Sorting algorithms(linear)</h3>
 <ul>
 	<li>Counting sort</li>
@@ -42,4 +42,7 @@
 	<li>Binomial coefficient</li>
 	<li>Longest common sequence</li>
 	<li>Longest repeated sequence</li>
+	<li>Longest increasing sequence</li>
+	<li>Largest sub-array sum</li>
+	<li>Ugly numbers</li>
 </u/>
