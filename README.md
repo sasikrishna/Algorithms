@@ -16,7 +16,7 @@
 	<li>Merge sort</li>
 	<li>Quick sort</li>
 	<li>Heap sort</li>
-<u/>
+<ul/>
 <h3>Sorting algorithms(linear)</h3>
 <ul>
 	<li>Counting sort</li>
@@ -45,4 +45,7 @@
 	<li>Longest increasing sequence</li>
 	<li>Largest sub-array sum</li>
 	<li>Ugly numbers</li>
+	<li>Minimum edit distance</li>
+	<li>Cover distance</li>
+	<li>Longest path matrix</li>
 </u/>

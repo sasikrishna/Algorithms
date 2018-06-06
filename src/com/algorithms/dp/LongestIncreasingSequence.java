@@ -24,8 +24,8 @@ public class LongestIncreasingSequence {
 		
 		for(int i = 1; i < array.length; i++){
 			for(int j = 0; j < i; j++){
-				if(array[i] > array[j] && lis[i] < (lis[j] + 1)){
-					lis[i] = lis[j] + 1;
+				if(array[i] > array[j]){
+					lis[i] = Math.max(lis[i], lis[j] + 1);
 				}
 			}
 		}
