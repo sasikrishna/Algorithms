@@ -21,7 +21,6 @@ public class Subsets{
 		int count = 0;
 		for(int i = 0; i < array.length; i++){
 			count += printSubsetsCount(sum - array[i], array);
-			System.out.println("Calling printSubset: " + (sum - array[i]));
 		}
 		
 		return count;
@@ -43,7 +42,6 @@ public class Subsets{
 		int count = 0;
 		for(int i = 0; i < array.length; i++){
 			count += printSubsetsCount(number - array[i], array);
-			System.out.println("Calling printSubset: " + (number - array[i]));
 		}
 		
 		lookup[number] = count;

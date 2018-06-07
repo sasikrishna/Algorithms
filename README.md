@@ -48,4 +48,5 @@
 	<li>Minimum edit distance</li>
 	<li>Cover distance</li>
 	<li>Longest path matrix</li>
+	<li>Optimal game strategy</li>
 </u/>
