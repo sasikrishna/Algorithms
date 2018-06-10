@@ -16,13 +16,13 @@
 	<li>Merge sort</li>
 	<li>Quick sort</li>
 	<li>Heap sort</li>
-<ul/>
+</ul>
 <h3>Sorting algorithms(linear)</h3>
 <ul>
 	<li>Counting sort</li>
 	<li>Bucket sort</li>
 	<li>Radix sort</li>
-</u/>
+</ul>
 <h3>Graphs</h3>
 <ul>
 	<li>Depth first search</li>
@@ -30,13 +30,13 @@
 	<li>Topological sort</li>
 	<li>Dijkstras single source shortest path</li>
 	<li>Bellman-Ford single source shortest path</li>
-</u/>
+</ul>
 <h3>Greedy Algorithms</h3>
 <ul>
 	<li>Activity selection</li>
 	<li>Job Scheduling</li>
 	<li>Egyptian factor</li>
-</u/>
+</ul>
 <h3>Dynamic Programming</h3>
 <ul>
 	<li>Binomial coefficient</li>
@@ -59,4 +59,4 @@
 	<li>Dice throwing</li>
 	<li>Box stacking</li>
 	<li>Egg dropping</li>
-</u/>
+</ul>
