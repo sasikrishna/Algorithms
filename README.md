@@ -49,4 +49,14 @@
 	<li>Cover distance</li>
 	<li>Longest path matrix</li>
 	<li>Optimal game strategy</li>
+	<li>Coin change ways</li>
+	<li>Cutting rod</li>
+	<li>0-1 Knapsack problem</li>
+	<li>Optimize matrix multiplications</li>
+	<li>Shortest common super sequence</li>
+	<li>Max product cutting rod</li>
+	<li>Word break</li>
+	<li>Dice throwing</li>
+	<li>Box stacking</li>
+	<li>Egg dropping</li>
 </u/>
