@@ -60,3 +60,12 @@
 	<li>Box stacking</li>
 	<li>Egg dropping</li>
 </ul>
+<h3>Array & Matrix Algorithms</h3>
+<ul>
+	<li>Array Rotation</li>
+	<li>Finding Repetative element in 5 ways</li>
+	<li>Triplets Sum</li>
+	<li>Right Angle Matrix</li>
+	<li>Matrix180Rotation</li>
+	<li>MatrixSpiralForm</li>
+</ul>
