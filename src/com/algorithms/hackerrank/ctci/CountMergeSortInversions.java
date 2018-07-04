@@ -59,8 +59,8 @@ public class CountMergeSortInversions {
     			tempArray[k++] = arr[start++];
     		}else if(arr[start] > arr[middle]){
 				tempArray[k++] = arr[middle++];
-				inversions += (mid + 1) - start;			//Here we are counting the inversions. When ever we have element in right sub array which is greater than element in left sub array 
-			}else{										//count all elements in left sub array from start index. Those many inversions we need to do to for sorting.
+				inversions += (mid + 1) - start;			//Here we are counting the inversions. Whenever we have element in right sub array which is greater than element in left sub array 
+			}else{										//count all elements in left sub array from start index. Those many inversions we need to do for sorting.
 				tempArray[k++] = arr[start++];
 			}
     	}

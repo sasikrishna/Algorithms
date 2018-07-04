@@ -53,6 +53,8 @@ public class RunningMedian {
             	}
             }
             
+            System.out.println(minQueue);
+            System.out.println(maxQueue);
             int totalElements = minQueue.size() + maxQueue.size();
             if(totalElements % 2 == 0){
             	System.out.println(((minQueue.peek() + maxQueue.peek()) / 2.0f));
