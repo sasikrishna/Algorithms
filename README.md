@@ -69,3 +69,8 @@
 	<li>Matrix180Rotation</li>
 	<li>MatrixSpiralForm</li>
 </ul>
+<h3>Linked Lists</h3>
+<ul>
+	<li>Loop Length</li>
+	<li>LinkedList Is Palindrome</li>
+</ul>
