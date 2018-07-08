@@ -11,8 +11,7 @@ import java.util.Stack;
 public class LinkedListPalindrome {
 	
 	/**
-	 * 
-	 * 
+	 *  
 	 * Time complexity: O(n)
 	 * Space complexity: O(n) for stack
 	 * 
@@ -82,11 +81,9 @@ public class LinkedListPalindrome {
 	
 	/**
 	 * 
-	 * Time complexity: O(n)
-	 * Space complexity: O(n) if we consider call stack
-	 * 
 	 * @param head
 	 * @param secondHalf
+	 * @return
 	 */
 	private static boolean compareList(Node<Character> head, Node<Character> secondHalf) {
 		while(head != null && secondHalf != null){
@@ -107,8 +104,8 @@ public class LinkedListPalindrome {
 
 	/**
 	 * 
-	 * 
-	 * @author sasi on 05-Jul-2018, 8:27:07 am
+	 * @param head
+	 * @return
 	 */
 	private static Node<Character> reverseList(Node<Character> head){
 		Node<Character> prev = null;
@@ -123,7 +120,11 @@ public class LinkedListPalindrome {
 	
 	/**
 	 * 
+	 * Time complexity: O(n)
+	 * Space complexity: O(n) if we consider call stack
+	 * 
 	 * @param head
+	 * @param secondHalf
 	 */
 	static Node<Character> left = null;
 	public static boolean findWithTwoPointers(Node<Character> right){

@@ -73,4 +73,12 @@
 <ul>
 	<li>Loop Length</li>
 	<li>LinkedList Is Palindrome</li>
+	<li>Merge Sort for Linked Lists</li>
+	<li>Insertion Sort for Linked Lists</li>
+	<li>Reverse List in Groups</li>
+	<li>Rearrange Linked List Nodes</li>
+	<li>Merge K Sorted Linked Lists</li>
+	<li>Segregate Even Odd Nodes</li>
+	<li>Intersection Point</li>
+	<li>Move Occurences</li>
 </ul>

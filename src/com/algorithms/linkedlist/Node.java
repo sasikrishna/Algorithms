@@ -9,6 +9,8 @@ public class Node<T> {
 	public T data;
 	public Node<T> prev;
 	public Node<T> next;
+	public Node<T> arbitary;
+	public Boolean isVisited = false;
 	
 	public Node(T data) {
 		this.data = data;
@@ -27,5 +29,17 @@ public class Node<T> {
 	@Override
 	public String toString() {
 		return data.toString();
+	}
+	
+	/**
+	 * Util method to print all nodes in linked list.
+	 *  
+	 * @param head
+	 */
+	public static void print(Node<Integer> head){
+		while(null != head){
+			System.out.print(head.data + " ");
+			head = head.next;
+		}
 	}
 }
