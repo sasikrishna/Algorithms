@@ -82,3 +82,13 @@
 	<li>Intersection Point</li>
 	<li>Move Occurences</li>
 </ul>
+<h3>Stack</h3>
+<ul>
+	<li>Expression Evaluation</li>
+	<li>Expression Conversions</li>
+	<li>Next Greater Element</li>
+	<li>Max Rectangle area in histogram</li>
+	<li>Stack using queues</li>
+	<li>Min element in stack - O(1) TC</li>
+	<li>Stock Span</li>
+</ul>

@@ -31,10 +31,6 @@ public class Reverse {
 		head.next.next.next = new Node<Integer>(4);
 		head.next.next.next.next = new Node<Integer>(5);
 		reverse(head);
-		
-		while(head != null){
-			System.out.print(head.data + " ");
-			head = head.next;
-		}
+		Node.print(head);
 	}
 }
