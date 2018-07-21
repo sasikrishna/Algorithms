@@ -92,3 +92,10 @@
 	<li>Min element in stack - O(1) TC</li>
 	<li>Stock Span</li>
 </ul>
+<h3>Queues</h3>
+<ul>
+	<li>Sum of Min & Max in sub-arrays</li>
+	<li>First Non Repeating Character</li>
+	<li>Petrol Pumps</li>
+	<li>Binary Tree Height</li>
+</ul>
