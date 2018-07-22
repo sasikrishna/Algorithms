@@ -99,3 +99,12 @@
 	<li>Petrol Pumps</li>
 	<li>Binary Tree Height</li>
 </ul>
+<h3>Binary Trees</h3>
+<ul>
+	<li>Tree traversals iterative approach</li>
+	<li>Morris traversal</li>
+	<li>Foldable binary tree</li>
+	<li>Symmetric tree</li>
+	<li>Inorder predecessor & successor</li>
+	<li>Specific level order traversals</li>
+</ul>
