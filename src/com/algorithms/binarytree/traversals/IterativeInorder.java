@@ -1,4 +1,4 @@
-package com.algorithms.binarytree;
+package com.algorithms.binarytree.traversals;
 
 import java.util.Stack;
 
@@ -7,7 +7,7 @@ import java.util.Stack;
  * 
  * @author Sasi Jolla on 22-Jul-2018, 12:06:02 am
  */
-public class InorderIterative {
+public class IterativeInorder {
 	
 	/**
 	 * 

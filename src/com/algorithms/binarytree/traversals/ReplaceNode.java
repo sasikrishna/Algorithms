@@ -1,4 +1,4 @@
-package com.algorithms.binarytree;
+package com.algorithms.binarytree.traversals;
 
 import java.util.ArrayList;
 import java.util.List;

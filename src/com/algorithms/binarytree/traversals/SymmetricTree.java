@@ -1,4 +1,4 @@
-package com.algorithms.binarytree;
+package com.algorithms.binarytree.traversals;
 
 /**
  * Problem statement: Given a binary tree, check whether it is a mirror of itself.

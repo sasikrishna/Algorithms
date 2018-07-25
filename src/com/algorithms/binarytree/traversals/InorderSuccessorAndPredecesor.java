@@ -1,4 +1,4 @@
-package com.algorithms.binarytree;
+package com.algorithms.binarytree.traversals;
 
 /**
  * Problem statement: Given a Binary Tree where each node has following structure, write a function to populate next pointer for all nodes. 

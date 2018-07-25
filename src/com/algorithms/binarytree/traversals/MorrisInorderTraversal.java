@@ -1,4 +1,4 @@
-package com.algorithms.binarytree;
+package com.algorithms.binarytree.traversals;
 
 /**
  * Problem statement: Inorder traversal in O(1) space using morris traversal technique.
@@ -35,6 +35,7 @@ public class MorrisInorderTraversal {
 					predecessor.right = current;
 					current = current.left;
 				}else{
+					/**Predecessor already exists that means we are visiting second time. So remove predecessor, printing current node and moving to next right node*/
 					System.out.print(current.data + " ");
 					current = current.right;
 					predecessor.right = null;
@@ -43,6 +44,10 @@ public class MorrisInorderTraversal {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Node<Integer> root = new Node<Integer>(10);
         root.left = new Node<Integer>(11);
