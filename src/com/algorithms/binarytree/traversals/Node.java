@@ -4,9 +4,9 @@ package com.algorithms.binarytree.traversals;
  * 
  */
 public class Node<T> {
-	T data;
-	Node<T> left;
-	Node<T> right;
+	public T data;
+	public Node<T> left;
+	public Node<T> right;
 
 	/**To solve inorder successor problems*/
 	Node<T> next, prev;
@@ -21,6 +21,14 @@ public class Node<T> {
 			System.out.print(root.data + " ");
 			preOrderTraversal(root.left);
 			preOrderTraversal(root.right);
+		}
+	}
+	
+	public static void inOrderTraversal(Node<?> root){
+		if(null != root){
+			inOrderTraversal(root.left);
+			System.out.print(root.data + " ");
+			inOrderTraversal(root.right);
 		}
 	}
 

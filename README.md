@@ -106,5 +106,11 @@
 	<li>Foldable binary tree</li>
 	<li>Symmetric tree</li>
 	<li>Inorder predecessor & successor</li>
-	<li>Specific level order traversals</li>
+	<li>Construct tree from array</li>
+	<li>Construct tree from inorder & preorder traversals</li>
+	<li>Construct tree from inorder & postorder traversals</li>
+	<li>Construct tree from inorder & level order traversals</li>
+	<li>Mirror binary tree</li>
+	<li>Convert binar tree to DLL</li>
+	<li>Convert ternary expression to binary tree</li>
 </ul>
