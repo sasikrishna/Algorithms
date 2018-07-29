@@ -113,4 +113,8 @@
 	<li>Mirror binary tree</li>
 	<li>Convert binar tree to DLL</li>
 	<li>Convert ternary expression to binary tree</li>
+	<li>Covered & Uncovered nodes sum</li>
+	<li>Divide binary tree</li>
+	<li>Print cousins</li>
+	<li>Sum tree</li>
 </ul>
