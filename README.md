@@ -117,4 +117,8 @@
 	<li>Divide binary tree</li>
 	<li>Print cousins</li>
 	<li>Sum tree</li>
+	<li>Diagonal sum</li>
+	<li>Largest sub tree sum</li>
+	<li>Sum in longest path</li>
+	<li>Print K - sum paths</li>
 </ul>
