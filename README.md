@@ -121,4 +121,7 @@
 	<li>Largest sub tree sum</li>
 	<li>Sum in longest path</li>
 	<li>Print K - sum paths</li>
+	<li>Lowest common ancestor</li>
+	<li>Max diff between a node and its ancestor</li>
+	<li>Printing common nodes</li>
 </ul>
