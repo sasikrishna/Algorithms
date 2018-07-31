@@ -124,4 +124,6 @@
 	<li>Lowest common ancestor</li>
 	<li>Max diff between a node and its ancestor</li>
 	<li>Printing common nodes</li>
+	<li>Diameter of binary tree</li>
+	<li>Is balanced tree</li>
 </ul>
