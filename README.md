@@ -126,4 +126,7 @@
 	<li>Printing common nodes</li>
 	<li>Diameter of binary tree</li>
 	<li>Is balanced tree</li>
+	<li>Binary tree max width</li>
+	<li>Binary tree vertical width</li>
+	<li>Binary tree bottom view</li>
 </ul>

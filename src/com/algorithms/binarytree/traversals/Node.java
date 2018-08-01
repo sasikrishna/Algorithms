@@ -11,6 +11,9 @@ public class Node<T> {
 	/**To solve inorder successor problems*/
 	Node<T> next, prev;
 	
+	/**To solve bottom view problem*/
+	public int hd;
+	
 	public Node(T data) {
 		super();
 		this.data = data;
