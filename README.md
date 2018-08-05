@@ -129,4 +129,8 @@
 	<li>Binary tree max width</li>
 	<li>Binary tree vertical width</li>
 	<li>Binary tree bottom view</li>
+	<li>BST dead end</li>
+	<li>Construct BST</li>
+	<li>Is BST preorder traversal</li>
+	<li>LCA in BST</li>
 </ul>
