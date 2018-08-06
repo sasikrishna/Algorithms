@@ -133,4 +133,6 @@
 	<li>Construct BST</li>
 	<li>Is BST preorder traversal</li>
 	<li>LCA in BST</li>
+	<li>Print array in sort order BST</li>
+	<li>Correct BST</li>
 </ul>
