@@ -136,3 +136,8 @@
 	<li>Print array in sort order BST</li>
 	<li>Correct BST</li>
 </ul>
+<h3>Heap</h3>
+<ul>
+	<li>Sorting using heap DS</li>
+	<li>Is given tree is binary heap</li>
+</ul>

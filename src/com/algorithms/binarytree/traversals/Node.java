@@ -11,12 +11,21 @@ public class Node<T> {
 	/**To solve inorder successor problems*/
 	Node<T> next, prev;
 	
+	/**Inorder traversal using parent pointers*/
+	Node<T> parent;
+	
 	/**To solve bottom view problem*/
 	public int hd;
 	
 	public Node(T data) {
 		super();
 		this.data = data;
+	}
+	
+	public Node(Node<T> parent, T data) {
+		super();
+		this.data = data;
+		this.parent = parent;
 	}
 	
 	public static void preOrderTraversal(Node<?> root){
