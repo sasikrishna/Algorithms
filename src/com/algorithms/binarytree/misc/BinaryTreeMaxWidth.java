@@ -1,5 +1,9 @@
 package com.algorithms.binarytree.misc;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
+
 import com.algorithms.binarytree.traversals.Node;
 
 /**
@@ -61,6 +65,45 @@ public class BinaryTreeMaxWidth {
 	
 	/**
 	 * 
+	 * @param root
+	 * @return
+	 */
+	static Map<Integer, AtomicInteger> nodeLevelCount = new HashMap<Integer, AtomicInteger>();
+	public static int getMaxWidthEfficiently(Node<Integer> root){
+		int maxWidth = Integer.MIN_VALUE;
+		
+		calculateMaxWidthMap(root, 0);
+		
+		for(int i = 0; i < nodeLevelCount.size(); i++){
+			maxWidth = Math.max(maxWidth, nodeLevelCount.get(i).intValue());
+		}
+		
+		return maxWidth;
+	}
+	
+	/**
+	 * 
+	 * @param root
+	 * @param level
+	 * @return
+	 */
+	private static void calculateMaxWidthMap(Node<Integer> root, int level){
+		if(null == root){
+			return;
+		}
+		
+		if(!nodeLevelCount.containsKey(level)){
+			nodeLevelCount.put(level, new AtomicInteger(1));
+		}else{
+			nodeLevelCount.get(level).getAndIncrement();
+		}
+		
+		calculateMaxWidthMap(root.left, level + 1);
+		calculateMaxWidthMap(root.right, level + 1);
+	}
+	
+	/**
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -72,6 +115,8 @@ public class BinaryTreeMaxWidth {
         root.right.right = new Node<Integer>(8);
         root.right.right.left = new Node<Integer>(6);
         root.right.right.right = new Node<Integer>(7);
+       
         System.out.println("Maximum width is " + getMaxWidth(root));
+        System.out.println("Maximum width is " + getMaxWidthEfficiently(root));
 	}
 }

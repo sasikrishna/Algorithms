@@ -141,3 +141,10 @@
 	<li>Sorting using heap DS</li>
 	<li>Is given tree is binary heap</li>
 </ul>
+<h3>Hashing</h3>
+<ul>
+	<li>Longest sub array</li>
+	<li>Longest increasing sub sequence</li>
+	<li>Largest contiguous sub array</li>
+	<li>Sum pair exists</li>
+</ul>
