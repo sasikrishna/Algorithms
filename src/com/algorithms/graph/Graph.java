@@ -1,6 +1,7 @@
 package com.algorithms.graph;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * 
@@ -8,7 +9,8 @@ import java.util.List;
  */
 public interface Graph {
 	public List<Edge> getAllEdges();
-	public List<Character> getAllVertexes();
+	public Set<Character> getAllVertexes();
+	public Integer getVertexesCount();
 	public void addEdge(Character source, Character destination);
 	public void addEdge(Character source, Character destination, int weight);
 }

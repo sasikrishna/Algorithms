@@ -148,3 +148,13 @@
 	<li>Largest contiguous sub array</li>
 	<li>Sum pair exists</li>
 </ul>
+<h3>Graphs</h3>
+<ul>
+	<li>DFS & BFS</li>
+	<li>Minimal spanning trees</li>
+	<li>Articulation points & bridges</li>
+	<li>Shortest path algorithms</li>
+	<li>Graph connectivity using Kosaraju's algorithm</li>
+	<li>Topological sort using DFS & Kahns algorithms</li>
+	<li>Cycle detection in grap</li>
+</ul>

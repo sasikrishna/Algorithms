@@ -4,7 +4,7 @@ package com.algorithms.graph;
  * 
  * @author Sasi on 30-May-2018, 7:52:02 pm
  */
-public class Edge implements Comparable<Edge>{
+public class Edge implements Comparable<GraphEdge>{
 	
 	public Character source, destination;
 	public int weight;
@@ -30,7 +30,7 @@ public class Edge implements Comparable<Edge>{
 	}
 
 	@Override
-	public int compareTo(Edge edge) {
+	public int compareTo(GraphEdge edge) {
 		return this.weight - edge.weight;
 	}
 }

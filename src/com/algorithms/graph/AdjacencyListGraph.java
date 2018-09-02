@@ -2,9 +2,11 @@ package com.algorithms.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 
 /**
  * 
@@ -12,11 +14,11 @@ import java.util.Map.Entry;
  */
 public class AdjacencyListGraph implements Graph{
 	Map<Character, List<Vertex>> graph;
-	List<Character> vertexes;
+	Set<Character> vertexes;
 	
 	public AdjacencyListGraph(){
 		graph  = new HashMap<Character, List<Vertex>>();
-		vertexes = new ArrayList<>();
+		vertexes = new HashSet<>();
 	};
 	
 	public Map<Character, List<Vertex>> getAdjancencyList(){
@@ -29,6 +31,7 @@ public class AdjacencyListGraph implements Graph{
 		
 		if(null == adjacencyList){
 			vertexes.add(source);
+			vertexes.add(destination);
 			adjacencyList = new ArrayList<Vertex>();
 		}
 		
@@ -71,7 +74,12 @@ public class AdjacencyListGraph implements Graph{
 	}
 
 	@Override
-	public List<Character> getAllVertexes() {
+	public Set<Character> getAllVertexes() {
 		return vertexes;
+	}
+
+	@Override
+	public Integer getVertexesCount() {
+		return vertexes.size();
 	}
 }
